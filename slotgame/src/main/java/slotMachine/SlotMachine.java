@@ -8,13 +8,19 @@ import com.netent.games.simplegames.money.Wallet;
 public class SlotMachine {
 
     private Wallet wallet;
-    private Random random = new Random(10000000);
+    private Random random = new Random(10);
     private State state;
 
 
+    int a;
+    int b;
+
     public SlotMachine() {
-        int startCoins = 1000000;
+        int startCoins = 100000000;
         wallet = new Wallet(startCoins);
+
+        a = 0;
+        b = 0;
     }
 
     private enum State {
@@ -26,43 +32,49 @@ public class SlotMachine {
 
         int DEFAULT_WIN = 20;
         int DEFAULT_BET = 10;
+
         wallet.roundPayment(DEFAULT_BET);
 
         if (hasWin()) {
             wallet.addMoney(DEFAULT_WIN);
         }
 
-//        if (hasFreeRound()) {
-//
-//        }
+        if (hasFreeRound()) {
+            wallet.addMoney(DEFAULT_BET);
+        }
 
     }
 
     public void showRTP() {
-        Logger.showRTP( (int)((double)this.wallet.getAllWins() / this.wallet.getAllPays() * 100) );
-//        Logger.showRTP();
+        Logger.showRTP( (float)this.wallet.getAllWins() / this.wallet.getAllPays() );
     }
 
-//    private void decreaseRoundCoins() {
-//
-//        int bet = 10;
-//        if (coins < bet) {
-//            System.out.println("Coins aren't enough");
-//        } else {
-//            int ROUND_PAY = 5;
-//            coins -= state == State.FREE ? 0 : ROUND_PAY;
-//        }
-//
-//    }
 
     private boolean hasFreeRound() {
-        return this.random.nextInt() < 30;
+        return this.randInt(0, 99) < 10;
     }
 
     private boolean hasWin() {
-        return this.random.nextInt() <= 30;
+        return this.randInt(0, 99) < 30;
     }
 
+    /**
+     * Initialize a new random number generator that generates
+     * random numbers in the range [min, max]
+     * @param min - the min value (inclusive)
+     * @param max - the max value (inclusive)
+     */
+    public int randInt(int min, int max) {
+
+
+        Random rand = new Random();
+
+        // nextInt is normally exclusive of the top value,
+        // so add 1 to make it inclusive
+        int randomNum = rand.nextInt((max - min) + 1) + min;
+
+        return randomNum;
+    }
 
 }
 

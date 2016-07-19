@@ -14,7 +14,7 @@ public class Wallet {
 
     public void roundPayment(int coins) {
 
-        if (this.currentPayment > coins) {
+        if (this.currentPayment >= coins) {
             this.currentPayment -= coins;
             this.allPays += coins;
         } else {
@@ -24,7 +24,6 @@ public class Wallet {
     }
 
     public void addMoney(int coins) {
-        System.out.println("WIN");
         this.currentPayment += coins;
         this.allWins += coins;
     }

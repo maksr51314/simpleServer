@@ -13,7 +13,7 @@ public class Logger {
         System.out.println(errText);
     }
 
-    public static void showRTP(int num) {
+    public static void showRTP(float num) {
         System.out.println("RTP : " + num);
     }
 
