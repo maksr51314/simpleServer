@@ -1,16 +1,17 @@
-package slotMachine;
-
+package bonusMachine;
 
 import com.netent.games.simplegames.logger.Logger;
 import com.netent.games.simplegames.money.Wallet;
 import com.netent.games.simplegames.random.Random;
 
-public class SlotMachine {
+public class BonusMachine {
+
+    private final int BONUS_WIN = 5;
 
     private Wallet wallet;
     private Random random;
 
-    public SlotMachine() {
+    public BonusMachine() {
         int startCoins = 100000000;
         wallet = new Wallet(startCoins);
         random = new Random();
@@ -23,14 +24,27 @@ public class SlotMachine {
 
         wallet.roundPayment(DEFAULT_BET);
 
-        if (hasWin()) {
-            wallet.addMoney(DEFAULT_WIN);
+//        if (hasWin()) {
+//            wallet.addMoney(DEFAULT_WIN);
+//        }
+
+        if (hasBonusGame()) {
+
+            playBonus();
+//            wallet.addMoney(DEFAULT_BET);
         }
 
-        if (hasFreeRound()) {
-            wallet.addMoney(DEFAULT_BET);
-        }
+    }
 
+    private void playBonus() {
+        for (int i = 0; i < 5; i++) {
+            //last round or player chose 0 - exit num
+            if (random.randInt(0, 4) == 0 || i == 4) {
+                break;
+            } else {
+                wallet.addMoney(BONUS_WIN);
+            }
+        }
     }
 
     public int getAllPays() {
@@ -45,7 +59,7 @@ public class SlotMachine {
         return (float)this.wallet.getAllWins() / this.wallet.getAllPays();
     }
 
-    private boolean hasFreeRound() {
+    private boolean hasBonusGame() {
         return random.randInt(0, 100) < 10;
     }
 
@@ -54,4 +68,3 @@ public class SlotMachine {
     }
 
 }
-

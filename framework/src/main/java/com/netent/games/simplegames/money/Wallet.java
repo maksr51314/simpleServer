@@ -19,6 +19,8 @@ public class Wallet {
             this.allPays += coins;
         } else {
             Logger.showError("User bet can't be more then money at wallet");
+            //as coins are infinitive
+
         }
 
     }
