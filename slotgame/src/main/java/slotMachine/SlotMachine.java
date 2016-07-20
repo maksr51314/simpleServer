@@ -1,27 +1,22 @@
 package slotMachine;
 
+import com.netent.games.simplegames.machine.Machine;
 
-import com.netent.games.simplegames.logger.Logger;
-import com.netent.games.simplegames.money.Wallet;
-import com.netent.games.simplegames.random.Random;
+public class SlotMachine extends Machine {
 
-public class SlotMachine {
+    private final int DEFAULT_WIN = 20;
+    private final int DEFAULT_BET = 10;
 
-    private Wallet wallet;
-    private Random random;
+    public SlotMachine() { super(); }
 
-    public SlotMachine() {
-        int startCoins = 100000000;
-        wallet = new Wallet(startCoins);
-        random = new Random();
-    }
-
+    @Override
     public void spin() {
 
-        int DEFAULT_WIN = 20;
-        int DEFAULT_BET = 10;
+        int a = getAllPays();
 
-        wallet.roundPayment(DEFAULT_BET);
+        int b=  1;
+
+       wallet.roundPayment(DEFAULT_BET);
 
         if (hasWin()) {
             wallet.addMoney(DEFAULT_WIN);
@@ -31,18 +26,6 @@ public class SlotMachine {
             wallet.addMoney(DEFAULT_BET);
         }
 
-    }
-
-    public int getAllPays() {
-        return wallet.getAllPays();
-    }
-
-    public void showRTP() {
-        Logger.showRTP( getRTP() );
-    }
-
-    public float getRTP() {
-        return (float)this.wallet.getAllWins() / this.wallet.getAllPays();
     }
 
     private boolean hasFreeRound() {

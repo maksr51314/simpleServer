@@ -69,8 +69,8 @@
       <file leaf-file-name="SlotGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slotgame/src/main/java/SlotGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="231">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="e#111#112#0" expanded="true" />
                 <element signature="e#158#159#0" expanded="true" />
@@ -83,19 +83,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BonusMachine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bonusgame/src/main/java/bonusMachine/BonusMachine.java">
+      <file leaf-file-name="Machine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/netent/games/simplegames/machine/Machine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="28" column="11" selection-start-line="26" selection-start-column="15" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="138">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1097#1098#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#1239#1240#0" expanded="true" />
-                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BonusMachine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bonusgame/src/main/java/bonusMachine/BonusMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,8 +115,8 @@
       <file leaf-file-name="SlotMachineTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slotgame/src/test/java/slotMachine/SlotMachineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="44">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BonusMachineTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BonusMachineTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bonusgame/src/test/java/bonusMachine/BonusMachineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,16 +152,11 @@
       <file leaf-file-name="SlotMachine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slotgame/src/main/java/slotMachine/SlotMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,7 +165,7 @@
       <file leaf-file-name="BonusGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bonusgame/src/main/java/BonusGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="200">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#117#118#0" expanded="true" />
@@ -169,16 +175,6 @@
                 <element signature="e#261#262#0" expanded="true" />
                 <element signature="e#309#310#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bonusgame/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -196,8 +192,8 @@
       <file leaf-file-name="SlotGameTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slotgame/src/test/java/SlotGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="216">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,15 +232,16 @@
         <option value="$PROJECT_DIR$/slotgame/pom.xml" />
         <option value="$PROJECT_DIR$/framework/src/main/java/com/netent/games/simplegames/Random.java" />
         <option value="$PROJECT_DIR$/framework/src/main/java/com/netent/games/simplegames/random/Random.java" />
-        <option value="$PROJECT_DIR$/slotgame/src/main/java/slotMachine/SlotMachine.java" />
-        <option value="$PROJECT_DIR$/slotgame/src/main/java/SlotGame.java" />
         <option value="$PROJECT_DIR$/slotgame/src/test/java/SlotGameTest.java" />
         <option value="$PROJECT_DIR$/slotgame/src/test/java/slotMachine/SlotMachineTest.java" />
         <option value="$PROJECT_DIR$/bonusgame/pom.xml" />
         <option value="$PROJECT_DIR$/framework/src/main/java/com/netent/games/simplegames/money/Wallet.java" />
         <option value="$PROJECT_DIR$/bonusgame/src/main/java/BonusGame.java" />
-        <option value="$PROJECT_DIR$/bonusgame/src/main/java/bonusMachine/BonusMachine.java" />
         <option value="$PROJECT_DIR$/bonusgame/src/test/java/bonusMachine/BonusMachineTest.java" />
+        <option value="$PROJECT_DIR$/framework/src/main/java/com/netent/games/simplegames/machine/Machine.java" />
+        <option value="$PROJECT_DIR$/slotgame/src/main/java/SlotGame.java" />
+        <option value="$PROJECT_DIR$/slotgame/src/main/java/slotMachine/SlotMachine.java" />
+        <option value="$PROJECT_DIR$/bonusgame/src/main/java/bonusMachine/BonusMachine.java" />
       </list>
     </option>
   </component>
@@ -517,6 +514,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplegames" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netentTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpleServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bonusgame" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -657,6 +688,7 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/framework/src/main/java/com/netent/games/simplegames" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -666,7 +698,7 @@
       <recent name="slotMachine" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BonusMachineTest.testRTP">
+  <component name="RunManager" selected="JUnit.SlotMachineTest.testRTP">
     <configuration default="false" name="SlotGameTest.rtp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="slotgame" />
@@ -749,6 +781,32 @@
       <option name="MAIN_CLASS_NAME" value="bonusMachine.BonusMachineTest" />
       <option name="METHOD_NAME" value="testRTP" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SlotMachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="slotMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="slotgame" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="slotMachine" />
+      <option name="MAIN_CLASS_NAME" value="slotMachine.SlotMachineTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1266,19 +1324,21 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.1.8" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.SlotGameTest.rtp" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.SlotGameTest.testSpendingMoney" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.SlotMachineTest.testRTP" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.BonusMachineTest.testRTP" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.SlotMachineTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BonusMachineTest.testRTP" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SlotMachineTest.testRTP" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SlotGameTest.testSpendingMoney" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SlotGameTest.rtp" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SlotMachineTest.testRTP" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SlotMachineTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BonusMachineTest.testRTP" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SlotGameTest.testSpendingMoney" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SlotGameTest.rtp" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1307,7 +1367,7 @@
       <workItem from="1415373968854" duration="95000" />
       <workItem from="1415374077051" duration="381000" />
       <workItem from="1415374496644" duration="95000" />
-      <workItem from="1468990298250" duration="9560000" />
+      <workItem from="1468990298250" duration="13361000" />
     </task>
     <servers />
   </component>
@@ -1330,21 +1390,21 @@
     <history-entry file="BonusMachineTest_testRTP - 2016.07.20 at 11h 35m 06s.xml">
       <configuration name="BonusMachineTest.testRTP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlotMachineTest_testRTP - 2016.07.20 at 10h 34m 43s.xml">
+    <history-entry file="SlotMachineTest - 2016.07.20 at 12h 20m 55s.xml">
+      <configuration name="SlotMachineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlotMachineTest_testRTP - 2016.07.20 at 12h 11m 20s.xml">
       <configuration name="SlotMachineTest.testRTP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlotMachineTest_testRTP - 2016.07.20 at 10h 34m 58s.xml">
+    <history-entry file="SlotMachineTest_testRTP - 2016.07.20 at 12h 14m 17s.xml">
       <configuration name="SlotMachineTest.testRTP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SlotMachineTest_testRTP - 2016.07.20 at 10h 35m 17s.xml">
-      <configuration name="SlotMachineTest.testRTP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SlotMachineTest_testRTP - 2016.07.20 at 11h 32m 53s.xml">
+    <history-entry file="SlotMachineTest_testRTP - 2016.07.20 at 12h 44m 10s.xml">
       <configuration name="SlotMachineTest.testRTP" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10131000" />
+    <option name="totallyTimeSpent" value="13932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
@@ -1352,23 +1412,23 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2749196" sideWeight="0.5090909" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2035139" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.275969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2749196" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1830161" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18939394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3658915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38906753" sideWeight="0.4909091" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1425,7 +1485,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bonusgame/src/test/java/bonusMachine/BonusMachineTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1462,13 +1530,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1739,37 +1802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slotgame/src/main/java/SlotGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slotgame/src/main/java/slotMachine/SlotMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/netent/games/simplegames/money/Wallet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -1789,19 +1821,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slotgame/src/test/java/SlotGameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bonusgame/src/main/java/BonusGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="200">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#117#118#0" expanded="true" />
@@ -1814,36 +1836,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slotgame/src/test/java/slotMachine/SlotMachineTest.java">
+    <entry file="file://$PROJECT_DIR$/bonusgame/src/test/java/bonusMachine/BonusMachineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/netent/games/simplegames/machine/Machine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slotgame/src/main/java/SlotGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slotgame/src/test/java/SlotGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slotgame/src/test/java/slotMachine/SlotMachineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slotgame/src/main/java/slotMachine/SlotMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bonusgame/src/main/java/bonusMachine/BonusMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="28" column="11" selection-start-line="26" selection-start-column="15" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bonusgame/src/test/java/bonusMachine/BonusMachineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="248">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

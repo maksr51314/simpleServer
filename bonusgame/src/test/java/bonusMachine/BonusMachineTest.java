@@ -10,9 +10,11 @@ public class BonusMachineTest {
     public void testRTP() {
         BonusMachine machine = new BonusMachine();
 
-        for(int i = 0; i <= 1000000; i++) {
+        for(int i = 0; i <= 10000000; i++) {
             machine.spin();
         }
+
+        float a = machine.getRTP();
 
         assertEquals(0.11, machine.getRTP(), 0.01);
     }
