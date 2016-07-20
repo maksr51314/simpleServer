@@ -2,24 +2,18 @@ import slotMachine.SlotMachine;
 
 public class SlotGame {
 
+    private SlotMachine slotMachine;
+
     SlotGame() {
-
-        SlotMachine slotMachine = new SlotMachine();
-        slotMachine.spin();
-
+        slotMachine = new SlotMachine();
     }
 
-    public static void main(String[] args) {
-        int i;
+    public void play() {
+        slotMachine.spin();
+    }
 
-        SlotMachine slotMachine = new SlotMachine();
-
-        for (i = 0; i <= 10000000; i++) {
-            slotMachine.spin();
-        }
-
-        slotMachine.showRTP();
-
+    public int getSpendMoney() {
+        return slotMachine.getAllPays();
     }
 
 }

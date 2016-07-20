@@ -45,6 +45,10 @@ public class SlotMachine {
 
     }
 
+    public int getAllPays() {
+        return wallet.getAllPays();
+    }
+
     public void showRTP() {
         Logger.showRTP( (float)this.wallet.getAllWins() / this.wallet.getAllPays() );
     }
