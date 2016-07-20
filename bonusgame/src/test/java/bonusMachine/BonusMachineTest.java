@@ -14,9 +14,9 @@ public class BonusMachineTest {
             machine.spin();
         }
 
-        float a = machine.getRTP();
+        float rtp = machine.getRTP(); //0.11726774
 
-        assertEquals(0.11, machine.getRTP(), 0.01);
+        assertEquals(0.11, rtp, 0.01);
     }
 
 }

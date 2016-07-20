@@ -15,7 +15,9 @@ public class SlotMachineTest {
             machine.spin();
         }
 
-        assertEquals(0.6, machine.getRTP(), 0.1);
+        float rtp = machine.getRTP(); //0.66073817
+
+        assertEquals(0.6, rtp, 0.1);
     }
 
 

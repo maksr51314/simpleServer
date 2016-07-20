@@ -12,14 +12,12 @@ public class SlotMachine extends Machine {
     @Override
     public void spin() {
 
-       wallet.roundPayment(DEFAULT_BET);
-
         if (hasWin()) {
             wallet.addMoney(DEFAULT_WIN);
         }
 
-        if (hasFreeRound()) {
-            wallet.addMoney(DEFAULT_BET);
+        if (!hasFreeRound()) {
+            wallet.roundPayment(DEFAULT_BET);
         }
 
     }
