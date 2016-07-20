@@ -1,32 +1,31 @@
-package com.netent.games.simplegames.money;
+package com.netent.games.simplegames.wallet;
 
 import com.netent.games.simplegames.logger.Logger;
 
 public class Wallet {
 
-    private int currentPayment;
+    private int currentCoins;
     private int allPays = 0;
     private int allWins = 0;
 
     public Wallet(int coins) {
-        this.currentPayment = coins;
+        this.currentCoins = coins;
     }
 
     public void roundPayment(int coins) {
 
-        if (this.currentPayment >= coins) {
-            this.currentPayment -= coins;
+        if (this.currentCoins >= coins) {
+            this.currentCoins -= coins;
             this.allPays += coins;
         } else {
             Logger.showError("User bet can't be more then money at wallet");
-            //as coins are infinitive
-
+            //TODO : add coins if you need infinitive coins at wallet
         }
 
     }
 
     public void addMoney(int coins) {
-        this.currentPayment += coins;
+        this.currentCoins += coins;
         this.allWins += coins;
     }
 
@@ -37,5 +36,7 @@ public class Wallet {
     public int getAllWins() {
         return this.allWins;
     }
+
+    public int getCurrentCoins() { return this.currentCoins; }
 
 }

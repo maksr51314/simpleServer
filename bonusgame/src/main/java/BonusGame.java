@@ -1,23 +1,10 @@
 import bonusMachine.BonusMachine;
+import com.netent.games.simplegames.Game;
 
-public class BonusGame {
-
-    private BonusMachine bonusMachine;
+public class BonusGame extends Game {
 
     BonusGame() {
-        bonusMachine = new BonusMachine();
-    }
-
-    public void play() {
-        bonusMachine.spin();
-    }
-
-    public int getSpendMoney() {
-        return bonusMachine.getAllPays();
-    }
-
-    public static void main(String[] arg) {
-
+        super(new BonusMachine());
     }
 
 }

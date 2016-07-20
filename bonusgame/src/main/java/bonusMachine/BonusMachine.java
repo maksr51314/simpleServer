@@ -4,8 +4,8 @@ import com.netent.games.simplegames.machine.Machine;
 
 public class BonusMachine extends Machine {
 
-    private final int BONUS_WIN = 5;
-    private final int DEFAULT_BET = 10;
+    static private final int BONUS_WIN = 5;
+    static private final int DEFAULT_BET = 10;
 
     public BonusMachine() { super(); }
 

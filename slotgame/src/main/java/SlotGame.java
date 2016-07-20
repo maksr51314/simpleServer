@@ -1,19 +1,10 @@
+import com.netent.games.simplegames.Game;
 import slotMachine.SlotMachine;
 
-public class SlotGame {
-
-    private SlotMachine slotMachine;
+class SlotGame extends Game {
 
     SlotGame() {
-        slotMachine = new SlotMachine();
-    }
-
-    public void play() {
-        slotMachine.spin();
-    }
-
-    public int getSpendMoney() {
-        return slotMachine.getAllPays();
+        super(new SlotMachine());
     }
 
 }

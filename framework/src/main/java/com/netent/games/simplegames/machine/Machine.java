@@ -1,12 +1,9 @@
 package com.netent.games.simplegames.machine;
 
 import com.netent.games.simplegames.logger.Logger;
-import com.netent.games.simplegames.money.Wallet;
+import com.netent.games.simplegames.wallet.Wallet;
 import com.netent.games.simplegames.random.Random;
 
-/**
- * Created by maks on 7/20/16.
- */
 public class Machine {
 
     protected Wallet wallet;

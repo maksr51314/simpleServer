@@ -3,9 +3,7 @@ package slotMachine;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-/**
- * Created by maks on 7/20/16.
- */
+
 public class SlotMachineTest {
 
 
